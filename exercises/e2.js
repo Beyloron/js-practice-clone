@@ -25,12 +25,9 @@ rectArea(3, 2)
 const room1 = rectArea(4, 6)
 const room2 = rectArea(13, 3)
 const room3 = rectArea(4, 8)
-const totalRoom = (room1 + room2 + room3)
 
 
 // Having trouble getting this one to work. I've tried running the console.log() argument as it is now, as the sum of the values of the rooms (console.log(room1 + room2 + room3)), and also just as 95 to try to appease the assignment tester. I've also tried changing the variables between "const", "var", and "let", none of which have worked.
-
-console.log(totalRoom)
 
 
 /**
@@ -54,7 +51,7 @@ totalRoomsArea(24, 35, 24)
 // Make the function call in the parentheses of the console.log statement.
 // Use room1, room2, room3 variables as arguments for the function call
 const result = function () {
-  console.log(room1, room2, room3);
+  console.log(totalRoomsArea(room1, room2, room3));
 }
 
 
